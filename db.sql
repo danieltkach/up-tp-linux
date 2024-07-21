@@ -1,0 +1,33 @@
+  1 CREATE DATABASE ingenieria;
+  2 USE ingenieria;
+  3 
+  4 CREATE USER 'lcars'@'%' IDENTIFIED BY 'NCC1701D';
+  5 GRANT ALL PRIVILEGES ON ingenieria . * TO 'lcars'@'%';
+  6 
+  7 CREATE TABLE alumnos ( legajo VARCHAR(10), apellido VARCHAR(20), nombres VARCHAR(20));
+  8 CREATE TABLE modulos ( cod_modulo VARCHAR(8), nom_modulo VARCHAR(20));
+  9 CREATE TABLE notas ( legajo VARCHAR(10), cod_modulo VARCHAR(8), nota FLOAT);
+ 10 INSERT INTO alumnos VALUES ('20060101','Skywalker','Anakin');
+ 11 INSERT INTO alumnos VALUES ('20060102','Organa','Leia');
+ 12 INSERT INTO alumnos VALUES ('20060103','Solo','Han');
+ 13 INSERT INTO alumnos VALUES ('20060104','Wookie','Chewie');
+ 14 INSERT INTO alumnos VALUES ('20060105','Kenobi','Obi-wan');
+ 15 INSERT INTO modulos VALUES ('CM0001', 'Computacion Aplicada');
+ 16 INSERT INTO modulos VALUES ('CM0002', 'Programación 2');
+ 17 INSERT INTO modulos VALUES ('CM0003', 'Sistemas Operativos');
+ 18 INSERT INTO modulos VALUES ('CM0004', 'Matemática Discreta');
+ 19 INSERT INTO notas VALUES ('20060101', 'CM0001', 8);
+ 20 INSERT INTO notas VALUES ('20060101', 'CM0002', 6.5);
+ 21 INSERT INTO notas VALUES ('20060101', 'CM0003', 5);
+ 22 INSERT INTO notas VALUES ('20060102', 'CM0001', 7.5);
+ 23 INSERT INTO notas VALUES ('20060102', 'CM0003', 4.5);
+ 24 INSERT INTO notas VALUES ('20060102', 'CM0004', 7);
+ 25 INSERT INTO notas VALUES ('20060103', 'CM0001', 6);
+ 26 INSERT INTO notas VALUES ('20060103', 'CM0002', 7.5);
+ 27 INSERT INTO notas VALUES ('20060103', 'CM0004', 6);
+ 28 INSERT INTO notas VALUES ('20060104', 'CM0001', 5.5);
+ 29 INSERT INTO notas VALUES ('20060104', 'CM0002', 4);
+ 30 INSERT INTO notas VALUES ('20060104', 'CM0003', 4.5);
+ 31 INSERT INTO notas VALUES ('20060105', 'CM0001', 5.5);
+ 32 INSERT INTO notas VALUES ('20060105', 'CM0002', 5);
+ 33 INSERT INTO notas VALUES ('20060105', 'CM0004', 6.5);
