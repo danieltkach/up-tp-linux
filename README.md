@@ -1,6 +1,12 @@
+
 <img width="844" alt="Screenshot at Jul 24 23-20-54" src="https://github.com/user-attachments/assets/e73f17d1-de0e-40f6-bdea-88608dc6efc9">
 
-# TRABAJO PRÁCTICO
+# TRABAJO PRÁCTICO - Computación Aplicada
+## Integrantes (grupo 9)
+* Kurt Huberman
+* Diego Caceres
+* Daniel Tkach
+  
  Condiciones generales 1
  Armado de Entorno 2
  Servidores 2
