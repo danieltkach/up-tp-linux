@@ -1,3 +1,4 @@
+<img width="844" alt="Screenshot at Jul 24 23-20-54" src="https://github.com/user-attachments/assets/e73f17d1-de0e-40f6-bdea-88608dc6efc9">
 
 # TRABAJO PRÁCTICO
  Condiciones generales 1
